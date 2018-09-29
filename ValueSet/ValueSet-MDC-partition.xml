@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="MDC-partition"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <url value="http://devices.fhir.org/ValueSet/MDC-partition"/>
+  <version value="0.1.0"/>
+  <name value="MDC_partition"/>
+  <title value="MDC Partition codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
+  <description value="ValueSet for the ISO/IEEE 11073-10101 Partition codes."/>
+  <compose>
+    <include>
+	    <system value="urn:iso:std:iso:11073:10101"/>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Unspecified"/>
+        </extension>
+        <code value="0"/>
+        <display value="MDC_PART_UNSPEC"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Object infrastructure"/> 
+        </extension>
+        <code value="1"/>
+        <display value="MDC_PART_OBJ"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Supervisory Control and Data Acquisition (SCADA)"/>
+        </extension>
+        <code value="2"/>
+        <display value="MDC_PART_SCADA"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Event"/>
+        </extension>
+        <code value="3"/>
+        <display value="MDC_PART_EVT"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Dimension"/>
+        </extension>
+        <code value="4"/>
+        <display value="MDC_PART_DIM"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Virtual Attribute"/>
+        </extension>
+        <code value="5"/>
+        <display value="MDC_PART_VATTR"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Parameter Group"/>
+        </extension>
+        <code value="6"/>
+        <display value="MDC_PART_PGRP"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Body Sites"/>
+        </extension>
+        <code value="7"/>
+        <display value="MDC_PART_SITES"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Infrastructure"/>
+        </extension>
+        <code value="8"/>
+        <display value="MDC_PART_INFRA"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="File Exchange Format"/>
+        </extension>
+        <code value="9"/>
+        <display value="MDC_PART_FEF"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="ECG Extension"/>
+        </extension>
+        <code value="10"/>
+        <display value="NOM_PART_ECG_EXTN"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="IDCO Extension"/>
+        </extension>
+        <code value="11"/>
+        <display value="NOM_PART_IDCO_EXTN"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Disease Management"/>
+        </extension>
+        <code value="128"/>
+        <display value="NOM_PART_PHD_DM"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Health and Fitness"/>
+        </extension>
+        <code value="129"/>
+        <display value="NOM_PART_PHD_HF"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Assisted Independent Living"/>
+        </extension>
+        <code value="130"/>
+        <display value="NOM_PART_PHD_AI"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Return codes"/>
+        </extension>
+        <code value="255"/>
+        <display value="NOM_PART_RET_CODE"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="External Nomenclature"/>
+        </extension>
+        <code value="256"/>
+        <display value="MDC_PART_EXT_NOM"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Device settings"/>
+        </extension>
+        <code value="258"/>
+        <display value="MDC_PART_SETTINGS"/>
+      </concept>
+      <concept>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-definition">
+          <valueString value="Private"/>
+        </extension>
+        <code value="1024"/>
+        <display value="MDC_PART_PVT"/>
+      </concept>
+	  </include>
+  </compose>
+</ValueSet>
