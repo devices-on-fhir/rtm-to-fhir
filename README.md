@@ -8,15 +8,15 @@ Characteristics of the MDC code system are described in a documentation page. Th
 ## CodeSystem definitions
 For MDC there is a [CodeSystem](http://hl7.org/fhir/codesystem.html) resource that publishes identification, description, and concept properties. Two supplemental code systems are used for coding the concepts.
 
-[CodeSystem/MDC](CodeSystem/MDC) ISO/IEEE 11073-10101 Nomenclature (without concept definitions)  
-[CodeSystem/MDC-designation-use](CodeSystem/MDC-designation-use) Designation use within the ISO/IEEE 11073-10101 Nomenclature  
-[CodeSystem/MDC-concept-status](CodeSystem/MDC-concept-status) Concept status within the ISO/IEEE 11073-10101 Nomenclature  
+[CodeSystem/MDC](CodeSystem/CodeSystem-MDC.xml) ISO/IEEE 11073-10101 Nomenclature (without concept definitions)  
+[CodeSystem/MDC-designation-use](CodeSystem/CodeSystem-MDC-designation-use.xml) Designation use within the ISO/IEEE 11073-10101 Nomenclature  
+[CodeSystem/MDC-concept-status](CodeSystem/CodeSystem-MDC-concept-status.xml) Concept status within the ISO/IEEE 11073-10101 Nomenclature  
 
 ## ValueSet definitions
 There are example [ValueSet](http://hl7.org/fhir/valueset.html) resources that provide all or a subset of concepts of the MDC code system.
 
-[ValueSet/MDC](ValueSet/MDC) ISO/IEEE 11073-10101 Nomenclature (all codes)  
-[ValueSet/MDC-partition](ValueSet/MDC-partition) ISO/IEEE 11073-10101 Partition codes  
-[ValueSet/MDC-object](ValueSet/MDC-object) ISO/IEEE 11073-10101 Nomenclature filtered by Object partition  
-[ValueSet/MDC-metric](ValueSet/MDC-metric) ISO/IEEE 11073-10101 Nomenclature filtered by Metric partition  
-[ValueSet/MDC-dimension](ValueSet/MDC-dimension) ISO/IEEE 11073-10101 Nomenclature filtered by Dimension partition  
+[ValueSet/MDC](ValueSet/ValueSet-MDC.xml) ISO/IEEE 11073-10101 Nomenclature (all codes)  
+[ValueSet/MDC-partition](ValueSet/ValueSet-MDC-partition.xml) ISO/IEEE 11073-10101 Partition codes  
+[ValueSet/MDC-object](ValueSet/ValueSet-MDC-object.xml) ISO/IEEE 11073-10101 Nomenclature filtered by Object partition  
+[ValueSet/MDC-metric](ValueSet/ValueSet-MDC-metric.xml) ISO/IEEE 11073-10101 Nomenclature filtered by Metric partition  
+[ValueSet/MDC-dimension](ValueSet/ValueSet-MDC-dimension.xml) ISO/IEEE 11073-10101 Nomenclature filtered by Dimension partition  
