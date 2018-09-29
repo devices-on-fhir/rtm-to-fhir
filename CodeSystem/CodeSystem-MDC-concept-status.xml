@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="MDC-concept-status"/>
+  <url value="http://devices.fhir.org/CodeSystem/MDC-concept-status"/>
+  <name value="MDC_concept_status"/>
+  <title value="MDC Concept Status"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
+  <description value="Concept status within the ISO/IEEE 11073-10101 Nomenclature."/>
+  <content value="complete"/>
+  <concept>
+    <code value="provisional"/>
+    <display value="Provisional"/>
+    <definition value="Terms with provisional reference identifier and term code that may be used for development and interoperability testing. Provisional terms shall not be released in production devices."/>
+  </concept>
+  <concept>
+    <code value="approved"/>
+    <display value="Approved"/>
+    <definition value="Terms that got final approval for inclusion to RTMMS. Approved terms may be used in production devices."/>
+  </concept>
+  <concept>
+    <code value="zombie"/>
+    <display value="Zombie"/>
+    <definition value="Provisional terms that didn't get final approval. Reference identifier and term code will not be allocated to new terms."/>
+  </concept>
+  <concept>
+    <code value="published"/>
+    <display value="Published"/>
+    <definition value="Terms that are included in in a revision of the IEEE 11073-10101 standard."/>
+  </concept>
+  <concept>
+    <code value="maintenance"/>
+    <display value="Maintenance"/>
+    <definition value="Terms in a transition period to be deprecated. Maintenance terms shall not be used in new devices."/>
+  </concept>
+  <concept>
+    <code value="deprecated"/>
+    <display value="deprecated"/>
+    <definition value="Deprecated terms shall be removed from use in production devices."/>
+  </concept>
+  <concept>
+    <code value="prohibited"/>
+    <display value="Prohibited"/>
+    <definition value="Terms that have been removed from RTMMS. Use of prohibited terms shall be indicated as an error."/>
+  </concept>
+</CodeSystem>

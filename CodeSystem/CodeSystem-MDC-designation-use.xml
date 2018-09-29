@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="MDC-designation-use"/>
+  <url value="http://devices.fhir.org/CodeSystem/MDC-designation-use"/>
+  <name value="MDC_designation_use"/>
+  <title value="MDC Designation Use"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
+  <description value="Designation use within the ISO/IEEE 11073-10101 Nomenclature."/>
+  <content value="complete"/>
+  <concept>
+    <code value="synonym"/>
+    <display value="Synonym"/>
+    <definition value="Synonym for reference identifier."/>
+  </concept>
+  <concept>
+    <code value="systematic-name"/>
+    <display value="Systematic name"/>
+    <definition value="An organization of differentiating, relational descriptors that are unique for each term."/>
+  </concept>
+  <concept>
+    <code value="common-term"/>
+    <display value="Common term"/>
+    <definition value="Name that is in common use in medicine."/>
+  </concept>
+  <concept>
+    <code value="acronym"/>
+    <display value="Acronym"/>
+    <definition value="English abbreviation of common term."/>
+  </concept>
+</CodeSystem>
