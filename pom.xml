@@ -3,23 +3,54 @@
   <groupId>org.fhir.devices</groupId>
   <artifactId>rtm-to-fhir</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>RTMtoFHIR</name>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>6</source>
+					<target>6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<name>RTMtoFHIR</name>
+	<properties>
+		<hapifhir_version>5.1.0</hapifhir_version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>oss-snapshots</id>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</repository>
+	</repositories>
+
   <dependencies>
   	<dependency>
   		<groupId>ca.uhn.hapi.fhir</groupId>
   		<artifactId>hapi-fhir-base</artifactId>
-  		<version>3.5.0</version>
+  		<version>${hapifhir_version}</version>
   	</dependency>
   	<dependency>
   		<groupId>ca.uhn.hapi.fhir</groupId>
   		<artifactId>hapi-fhir-structures-r4</artifactId>
-  		<version>3.5.0</version>
+  		<version>${hapifhir_version}</version>
   	</dependency>
   	<dependency>
   		<groupId>org.slf4j</groupId>
   		<artifactId>slf4j-log4j12</artifactId>
   		<version>1.7.7</version>
   	</dependency>
+	  <dependency>
+		  <groupId>com.google.code.gson</groupId>
+		  <artifactId>gson</artifactId>
+		  <version>2.2.4</version>
+	  </dependency>
   </dependencies>
   <description>Java app for generating FHIR CodeSystem resource from RTMMS database contents.</description>
 </project>
