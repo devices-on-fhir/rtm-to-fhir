@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HRTM xmlns="http://www.nist.gov/rtm">
+  <HRosetta>
+    <term>
+      <Group>CVS_HEMO_CALC</Group>
+      <REFID>MDC_ACCELERATION_INDEX</REFID>
+      <Synonym/>
+      <Standard_Table>A.7.3.1</Standard_Table>
+      <Systematic_Name>Acceleration, initial | BloodFlow | Flow | Aorta, CVS</Systematic_Name>
+      <Common_term>Acceleration Index</Common_term>
+      <Acronym>ACI</Acronym>
+      <Term_description>Initial acceleration of blood flow in the aorta, which occurs within the first 10 to 20 milliseconds</Term_description>
+      <CF_CODE10>150612</CF_CODE10>
+      <DIM>T-2</DIM>
+      <UOM_MDC>MDC_DIM_PER_HECTO_SEC_SQ</UOM_MDC>
+      <UOM_UCUM>/(100.s2)</UOM_UCUM>
+      <CF_UCODE10>270210</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_CALC_HEMO_VMD {GE}</Vendor_VMD>
+      <Vendor_Description>Acceleration Index {GE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>RESP_RR_ACOUSTIC</Group>
+      <REFID>MDC_ACOUSTIC_RESP_RATE</REFID>
+      <Synonym/>
+      <Standard_Table>A.7.4.8</Standard_Table>
+      <Systematic_Name>Rate | Acoustic | Breath | Breathing</Systematic_Name>
+      <Common_term>Acoustic Respiration Rate</Common_term>
+      <Acronym>RR-a</Acronym>
+      <Term_description>Rate of breathing; method: acoustic.</Term_description>
+      <CF_CODE10>151650</CF_CODE10>
+      <DIM>T-1</DIM>
+      <UOM_MDC>MDC_DIM_RESP_PER_MIN</UOM_MDC>
+      <UOM_UCUM>/min 1/min {breaths}/min {breath}/min {resp}/min</UOM_UCUM>
+      <CF_UCODE10>264928</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD/>
+      <Vendor_Description/>
+    </term>
+    <term>
+      <Group>DS-IP DS-IP-LVP DS-IP-PCA DS-IP-SYR</Group>
+      <REFID>MDC_AMOUNT_DRUG_REMAIN_CONTAINER</REFID>
+      <Synonym/>
+      <Standard_Table>A.7.7.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>158013</CF_CODE10>
+      <DIM>MM-1 MM-1 MM-1 MM-1 L3 M M M M ML-2 ML-2 ML-2 ML-2 ML-2 L3M-1 N N N N NM-1 NM-1 NL-2 NL-2 NM-1 NM-1 NL-2 NL-2 [iU] [iU] [iU] [iU]M-1 [iU]M-1 [iU]M-1 [iU]L-2 [iU]L-2 [iU]L-2 [iU] [iU]M-1 (arb’U) arb.u  arb.u  arb.u [arb.u]M-1 [arb.u]L-2 [arb.u] [arb.u]M-1 [arb.u] [arb.u]M-1 [arb.u]L-2</DIM>
+      <UOM_MDC>MDC_DIM_X_G_PER_KG MDC_DIM_MILLI_G_PER_KG MDC_DIM_MICRO_G_PER_KG MDC_DIM_NANO_G_PER_KG MDC_DIM_MILLI_L MDC_DIM_X_G MDC_DIM_MILLI_G MDC_DIM_MICRO_G MDC_DIM_NANO_G MDC_DIM_X_G_PER_M_SQ MDC_DIM_KILO_G_PER_M_SQ MDC_DIM_MILLI_G_PER_M_SQ MDC_DIM_MICRO_G_PER_M_SQ MDC_DIM_NANO_G_PER_M_SQ MDC_DIM_MILLI_L_PER_KG MDC_DIM_X_MOLE MDC_DIM_MILLI_MOLE MDC_DIM_X_EQUIV MDC_DIM_MILLI_EQUIV MDC_DIM_X_MOLE_PER_KG MDC_DIM_MILLI_MOLE_PER_KG MDC_DIM_X_MOLE_PER_M_SQ MDC_DIM_MILLI_MOLE_PER_M_SQ MDC_DIM_X_EQUIV_PER_KG MDC_DIM_MILLI_EQUIV_PER_KG MDC_DIM_X_EQUIV_PER_M_SQ MDC_DIM_MILLI_EQUIV_PER_M_SQ MDC_DIM_X_INTL_UNIT MDC_DIM_MILLI_INTL_UNIT MDC_DIM_MEGA_INTL_UNIT MDC_DIM_X_INTL_UNIT_PER_KG MDC_DIM_MILLI_INTL_UNIT_PER_KG MDC_DIM_MEGA_INTL_UNIT_PER_KG MDC_DIM_X_INTL_UNIT_PER_M_SQ MDC_DIM_MILLI_INTL_UNIT_PER_M_SQ MDC_DIM_MEGA_INTL_UNIT_PER_M_SQ MDC_DIM_KILO_INTL_UNIT MDC_DIM_KILO_INTL_UNIT_PER_KG MDC_DIM_X_ARB_UNIT MDC_DIM_X_ARB_UNIT_PER_KG MDC_DIM_X_ARB_UNIT_PER_M_SQ MDC_DIM_MEGA_ARB_UNIT MDC_DIM_MEGA_ARB_UNIT_PER_KG MDC_DIM_MEGA_ARB_UNIT_PER_M_SQ MDC_DIM_KILO_ARB_UNIT MDC_DIM_KILO_ARB_UNIT_PER_KG MDC_DIM_MILLI_ARB_UNIT MDC_DIM_MILLI_ARB_UNIT_PER_KG MDC_DIM_MILLI_ARB_UNIT_PER_M_SQ</UOM_MDC>
+      <UOM_UCUM>g/kg mg/kg ug/kg ng/kg mL g mg ug ng g/m2 kg/m2 mg/m2 ug/m2 ng/m2 mL/kg mol mmol eq meq mol/kg mmol/kg mol/m2 mmol/m2 eq/kg meq/kg eq/m2 meq/m2 [iU] m[iU] M[iU] [iU]/kg m[iU]/kg M[iU]/kg [iU]/m2 m[iU]/m2 M[iU]/m2 k[iU] k[iU]/kg [arb'U] [arb'U]/kg [arb'U]/m2 M[arb'U] M[arb'U]/kg M[arb'U]/m2 k[arb'U] k[arb'U]/kg m[arb'U] m[arb'U]/kg m[arb'U]/m2</UOM_UCUM>
+      <CF_UCODE10>262976 262994 262995 262996 263762 263872 263890 263891 263892 269888 269891 269906 269907 269908 265330 266688 266706 266720 266738 267072 267090 269696 269714 269728 269746 269760 269778 267616 267634 267620 269824 269842 269828 269856 269874 269860 267619 269827 271200 271488 271520 271204 271492 271524 271203 271491 271218 271506 271538</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>Primary Infusate Source {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>The amount of drug remaining in the container. {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>BODY</Group>
+      <REFID>MDC_AREA_BODY_SURF_ACTUAL</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name>Area | Actual | BodySurface | Body</Systematic_Name>
+      <Common_term>Patient body surface area</Common_term>
+      <Acronym/>
+      <Term_description>The actual body surface area of the patient, calculated from patient actual weight and patient actual length.</Term_description>
+      <CF_CODE10>188744</CF_CODE10>
+      <DIM>L2</DIM>
+      <UOM_MDC>MDC_DIM_SQ_M</UOM_MDC>
+      <UOM_UCUM>m2</UOM_UCUM>
+      <CF_UCODE10>263616</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_CALC_CARD_VMD {GE} MDC_DEV_CALC_PULM_VMD {GE}</Vendor_VMD>
+      <Vendor_Description>Body Surface Area {GE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>DS-GEN-REL_1.0</Group>
+      <REFID>MDC_ATTR_ALARM_INACTIVATION_STATE</REFID>
+      <Synonym/>
+      <Standard_Table>A.11.1.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description>Indicates whether visual or aural indications at the patient care device are inactivated</Term_description>
+      <CF_CODE10>68483</CF_CODE10>
+      <DIM/>
+      <UOM_MDC>MDC_DIM_NOS</UOM_MDC>
+      <UOM_UCUM>{unknown}</UOM_UCUM>
+      <CF_UCODE10>262144</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_MDS {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>Indicates whether visual or aural indications at the patient care device are inactivated {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>DS-GEN-REL_1.0</Group>
+      <REFID>MDC_ATTR_ALARM_PRIORITY</REFID>
+      <Synonym/>
+      <Standard_Table>A.11.1.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description>Alert priority</Term_description>
+      <CF_CODE10>68484</CF_CODE10>
+      <DIM/>
+      <UOM_MDC>MDC_DIM_NOS</UOM_MDC>
+      <UOM_UCUM>{unknown}</UOM_UCUM>
+      <CF_UCODE10>262144</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_MDS {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>Alert priority. {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>DS-GEN-REL_1.0</Group>
+      <REFID>MDC_ATTR_ALARM_STATE</REFID>
+      <Synonym/>
+      <Standard_Table>A.11.1.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description>Indicates the state of the underlying alert condition at the patient care device</Term_description>
+      <CF_CODE10>68482</CF_CODE10>
+      <DIM/>
+      <UOM_MDC>MDC_DIM_NOS</UOM_MDC>
+      <UOM_UCUM>{unknown}</UOM_UCUM>
+      <CF_UCODE10>262144</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_MDS {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>Indicates the state of the underlying alert condition at the patient care device {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>DS-GEN DS-GEN-REL_1.0 DS-IP DS-IP-LVP DS-IP-PCA DS-IP-SYR</Group>
+      <REFID>MDC_ATTR_ALERT_SOURCE</REFID>
+      <Synonym/>
+      <Standard_Table>A.11.1.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description>Identifies the physiological measurement or technical source responsible for the alert</Term_description>
+      <CF_CODE10>68480</CF_CODE10>
+      <DIM/>
+      <UOM_MDC>MDC_DIM_NOS</UOM_MDC>
+      <UOM_UCUM>{unknown}</UOM_UCUM>
+      <CF_UCODE10>262144</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_MDS {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>Identifies the physiological measurement or technical source responsible for the alert. {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>DS-GEN-REL_1.0</Group>
+      <REFID>MDC_ATTR_ALERT_TYPE</REFID>
+      <Synonym/>
+      <Standard_Table>A.11.1.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description>Alert type</Term_description>
+      <CF_CODE10>68485</CF_CODE10>
+      <DIM/>
+      <UOM_MDC>MDC_DIM_NOS</UOM_MDC>
+      <UOM_UCUM>{unknown}</UOM_UCUM>
+      <CF_UCODE10>262144</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_MDS {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>Alert type {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_DATA_RANGE</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68323</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Valid data range, expressed as a low^high inclusive value pair, in terms of sample values.  [These values do not necessarily represent the maximum and minimum values of the encoded waveform data and technical conditions, but rather the valid range of values of the analog to digital converter.] {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>DS-GEN-REL_1.0</Group>
+      <REFID>MDC_ATTR_EVENT_PHASE</REFID>
+      <Synonym/>
+      <Standard_Table>A.11.1.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description>Specifies whether this message is the beginning, end or other state or state transition for the alert</Term_description>
+      <CF_CODE10>68481</CF_CODE10>
+      <DIM/>
+      <UOM_MDC>MDC_DIM_NOS</UOM_MDC>
+      <UOM_UCUM>{unknown}</UOM_UCUM>
+      <CF_UCODE10>262144</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_MDS {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>Specifies whether this message is the beginning, end or other state or state transition for the alert {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>DS-GEN DS-IP</Group>
+      <REFID>MDC_ATTR_EVT_COND</REFID>
+      <Synonym/>
+      <Standard_Table>A.11.1.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68487</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values>MDC_EVT_PUMP_DELIV_START MDC_EVT_PUMP_DELIV_STOP MDC_EVT_PUMP_DELIV_COMP MDC_EVT_COMM_STATUS_CHANGE MDC_EVT_PUMP_PROG_CLEARED MDC_EVT_PUMP_AUTO_PROG_CLEARED MDC_EVT_PATIENT_CHANGE MDC_EVT_PATIENT_ID_CHANGE MDC_EVT_PATIENT_WEIGHT_CHANGE MDC_EVT_PUMP_VOL_COUNTERS_CLEARED MDC_EVT_DEVICE_TIME_CHANGED MDC_EVT_PATIENT_PARAMETER_CHANGE MDCX_EVT_PATIENT_HEIGHT_CHANGE MDCX_EVT_PATIENT_BSA_CHANGE MDCX_EVT_DELIVERY_PRE_START</Enum_Values>
+      <External_Sites/>
+      <Vendor_VMD>Infusion Pump VMD {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>Event Condition {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>DS-GEN DS-IP</Group>
+      <REFID>MDC_ATTR_EVT_SOURCE</REFID>
+      <Synonym/>
+      <Standard_Table>A.11.1.1</Standard_Table>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68488</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>Infusion Pump MDS {IHE PCD Infusion Pump Work Group }</Vendor_VMD>
+      <Vendor_Description>Identifies the source (e.g. containment level) of the event condition. {IHE PCD Infusion Pump Work Group }</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_ALT</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68538</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS altitude per WGS84 {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_ALT_ACCY</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68539</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS altitude accuracy {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_COORDINATES</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68532</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS coordinates (lat^lon) per WGS84 {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_COORD_ACCY</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68535</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS accuracy (lat^lon) {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_HEADING</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68540</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS heading with North at zero and positive to the East {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_LAT</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68533</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS latitude per WGS84 {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_LAT_ACCY</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68536</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS latitude accuracy {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_LON</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68534</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS longitude per WGS84 {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_LON_ACCY</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68537</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS longitude accuracy {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_PITCH</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68541</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS pitch with zero as horizontal and positive to higher elevation {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GPS_SPEED</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68542</CF_CODE10>
+      <DIM>LT-1</DIM>
+      <UOM_MDC>MDC_DIM_KILO_M_PER_SEC</UOM_MDC>
+      <UOM_UCUM>km/h</UOM_UCUM>
+      <CF_UCODE10>264963</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observation GPS speed {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_GRID_VIS</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68324</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Waveform display grid, specifies the vertical position(s) of horizontal reference lines for an individual or a group of waveforms, expressed as an array of values (reference MDC_ATTR_DATA_RANGE). {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_ADDRESS</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68514</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD/>
+      <Vendor_Description>Indication of location by postal service address {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_COORD_X</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68525</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observed location X of item axis offset from externally agreed base {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_COORD_XYZ</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68524</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observed location (X^Y[^Z]) of item axis offset from externally agreed base {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_COORD_XYZ_ACCY</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68528</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Accuracy of observed location (X^Y[^Z]) offset from externally agreed base {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_COORD_X_ACCY</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68529</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Accuracy of observed location X offset from externally agreed base {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_COORD_Y</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68526</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observed location Y of item axis offset from externally agreed base {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_COORD_Y_ACCY</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68530</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Accuracy of observed location Y offset from externally agreed base {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_COORD_Z</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68527</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Observed location Z of item axis offset from externally agreed base {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_COORD_Z_ACCY</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68531</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Accuracy of observed location Z offset from externally agreed base {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_LOCATION</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68513</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD/>
+      <Vendor_Description>Location of item by defined location identification {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_NAME</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68512</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Name of device or person item associated with location observation {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_PHASE</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68515</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD/>
+      <Vendor_Description>Indication of phase of location observation {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_REF_GPS</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68518</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Externally agreed base GPS reference (lat^lon) for calculating relative offsets {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_REF_GPS_ALT</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68521</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Externally agreed base altitude reference for calculating relative offsets {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_REF_GPS_BEARING</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68522</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Externally agreed base orientation reference for calculating relative offsets {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_REF_GPS_LAT</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68519</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Externally agreed base GPS reference latitude for calculating relative offsets {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_REF_GPS_LON</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68520</CF_CODE10>
+      <DIM>[rad]</DIM>
+      <UOM_MDC>MDC_DIM_ANG_DEG</UOM_MDC>
+      <UOM_UCUM>deg</UOM_UCUM>
+      <CF_UCODE10>262880</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Externally agreed base GPS reference longitude for calculating relative offsets {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_REF_LIMITS</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68523</CF_CODE10>
+      <DIM>L L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_M</UOM_MDC>
+      <UOM_UCUM>cm m</UOM_UCUM>
+      <CF_UCODE10>263441 263424</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Offset limits (-X^+X^-Y^+Y[^-Z^+Z]) for externally agreed base for presentation scaling {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_LS_REF_NAME</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68517</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD/>
+      <Vendor_Description>Name of externally agreed base for referencing relative offsets {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_PHYS_RANGE</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68328</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Waveform physiological range, specifies the range of expected physiological values for the waveform, expressed as a low^high inclusive value pair using the units-of-measure associated with the waveform, e.g. -40^350 mm[Hg]. {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>BODY</Group>
+      <REFID>MDC_ATTR_PT_HEIGHT</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68060</CF_CODE10>
+      <DIM>L</DIM>
+      <UOM_MDC>MDC_DIM_CENTI_M MDC_DIM_INCH</UOM_MDC>
+      <UOM_UCUM>cm [in_i]</UOM_UCUM>
+      <CF_UCODE10>263441 263520</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_PUMP_INFUS_MDS {BBraun_PL}</Vendor_VMD>
+      <Vendor_Description>Patient Height {BBraun_PL}</Vendor_Description>
+    </term>
+    <term>
+      <Group>BODY</Group>
+      <REFID>MDC_ATTR_PT_WEIGHT</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68063</CF_CODE10>
+      <DIM>M</DIM>
+      <UOM_MDC>MDC_DIM_KILO_G MDC_DIM_G MDC_DIM_LB MDC_DIM_OZ</UOM_MDC>
+      <UOM_UCUM>kg g [lb_av] [oz_av]</UOM_UCUM>
+      <CF_UCODE10>263875 263872 263904 263936</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_PUMP_INFUS_MDS {BBraun_PL} PHYSIO_SRC_ID_INCUB {Draeger}</Vendor_VMD>
+      <Vendor_Description>Patient Weight {BBraun_PL} weight {Draeger}</Vendor_Description>
+    </term>
+    <term>
+      <Group>INFANT_HYBRID_MICROENV INFANT_INCUBATOR INFANT_WARMER</Group>
+      <REFID>MDC_ATTR_PT_WEIGHT_LAST</REFID>
+      <Synonym/>
+      <Standard_Table>A.7.11.1</Standard_Table>
+      <Systematic_Name>Mass | Actual | | Body, last taken</Systematic_Name>
+      <Common_term>Last Taken Weight</Common_term>
+      <Acronym/>
+      <Term_description>Last Taken Weight</Term_description>
+      <CF_CODE10>188792</CF_CODE10>
+      <DIM/>
+      <UOM_MDC>MDC_DIM_G</UOM_MDC>
+      <UOM_UCUM>g</UOM_UCUM>
+      <CF_UCODE10>263872</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>MDC_DEV_INFANT_MICROENV_VMD
+ {Nuvon}</Vendor_VMD>
+      <Vendor_Description>Baby's Last Taken Weight {Nuvon}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_SAMPLE_COUNT</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68321</CF_CODE10>
+      <DIM/>
+      <UOM_MDC/>
+      <UOM_UCUM/>
+      <CF_UCODE10/>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Cumulative sample count, specifies the number of sampling intervals for a specific waveform group (or channel) since data acquisition began for that channel, expressed as an unsigned decimal integer. {IEEE}</Vendor_Description>
+    </term>
+    <term>
+      <Group>PROVGRP</Group>
+      <REFID>MDC_ATTR_SAMPLE_RATE</REFID>
+      <Synonym/>
+      <Standard_Table/>
+      <Systematic_Name/>
+      <Common_term/>
+      <Acronym/>
+      <Term_description/>
+      <CF_CODE10>68320</CF_CODE10>
+      <DIM>T-1 T</DIM>
+      <UOM_MDC>MDC_DIM_HZ MDC_DIM_SEC</UOM_MDC>
+      <UOM_UCUM>Hz s</UOM_UCUM>
+      <CF_UCODE10>264320</CF_UCODE10>
+      <Enum_Values/>
+      <External_Sites/>
+      <Vendor_VMD>{IEEE}</Vendor_VMD>
+      <Vendor_Description>Sample rate, the number of samples per unit time.  [Typical units are /s or Hz.] {IEEE}</Vendor_Description>
+    </term>
+  </HRosetta>
+</HRTM>
