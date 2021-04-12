@@ -30,18 +30,13 @@
     <definition value="Terms that are included in in a revision of the IEEE 11073-10101 standard."/>
   </concept>
   <concept>
-    <code value="maintenance"/>
-    <display value="Maintenance"/>
-    <definition value="Terms in a transition period to be deprecated. Maintenance terms shall not be used in new devices."/>
-  </concept>
-  <concept>
     <code value="deprecated"/>
     <display value="deprecated"/>
     <definition value="Deprecated terms shall be removed from use in production devices."/>
   </concept>
   <concept>
-    <code value="prohibited"/>
-    <display value="Prohibited"/>
-    <definition value="Terms that have been removed from RTMMS. Use of prohibited terms shall be indicated as an error."/>
+    <code value="withdrawn"/>
+    <display value="Withdrawn"/>
+    <definition value="Use of withdrawn terms shall be indicated as an error."/>
   </concept>
 </CodeSystem>

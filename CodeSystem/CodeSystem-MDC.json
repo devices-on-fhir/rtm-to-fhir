@@ -1,0 +1,32 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MDC",
+  "url": "urn:iso:std:iso:11073:10101",
+  "identifier": [
+    { "system": "urn:ietf:rfc:3986", "value": "urn:oid:2.16.840.1.113883.6.24" }
+  ],
+  "name": "MDC",
+  "title": "MDC Nomenclature",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Health Level Seven International (Health Care Devices Work Group)",
+  "description": "ISO/IEEE 11073-10101 Nomenclature for point-of-care medical device communication.",
+  "content": "not-present",
+  "property": [
+    {
+      "code": "status",
+      "description": "Status of the term code in NIST RTMMS.",
+      "type": "Coding"
+    },
+    {
+      "code": "harmonized",
+      "description": "Indicates whether the term code has been agreed upon during the open consensus-based Rosetta harmonization process.",
+      "type": "boolean"
+    },
+    {
+      "code": "partition",
+      "description": "Partition is a group of semantics that are assigned to a contiguous term code range and have a categorical relationship.",
+      "type": "code"
+    }
+  ]
+}

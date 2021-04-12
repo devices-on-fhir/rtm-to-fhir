@@ -3,7 +3,7 @@
 These definitions and tools are provided for creating a FHIR code system for the ISO/IEEE 11073-10101 Nomenclature standard.
 
 ## Using MDC with FHIR
-Characteristics of the MDC code system are described in a documentation page. There is a [draft version](https://docs.google.com/document/d/1Msh8z6sNCtI2koxf1kpObkmxNcVd6mS_6bTr6JDZOd0/edit?usp=sharing) in Google Docs open for comments. The final version should go into the Terminologies section of the FHIR specification.
+Characteristics of the MDC code system are described in a [documentation page](http://hl7.org/fhir/mdc.html) in the Terminologies section of FHIR specification.
 
 ## CodeSystem definitions
 For MDC there is a [CodeSystem](http://hl7.org/fhir/codesystem.html) resource that publishes identification, description, and concept properties. Two supplemental code systems are used for coding the concepts.
