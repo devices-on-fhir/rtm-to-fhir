@@ -1,25 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="MDC-metric"/>
+  <id value="MDC-metric" />
   <meta>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
   </meta>
-  <url value="http://devices.fhir.org/ValueSet/MDC-metric"/>
-  <version value="0.1.0"/>
-  <name value="MDC_metric"/>
-  <title value="MDC Metric nomenclature"/>
-  <status value="draft"/>
-  <experimental value="false"/>
-  <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
-  <description value="ValueSet for the ISO/IEEE 11073-10101 Nomenclature filtered by Metric partition."/>
+  <url value="http://devices.fhir.org/ValueSet/MDC-metric" />
+  <version value="0.1.0" />
+  <name value="MdcMetric" />
+  <title value="MDC Metric nomenclature" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 International - Devices Work Group" />
+  <description value="ValueSet for the ISO/IEEE 11073-10101 Nomenclature filtered by Metric (SCADA or Settings) partition." />
   <compose>
     <include>
-	    <system value="urn:iso:std:iso:11073:10101"/>
-	    <filter>
-	      <property value="partition"/>
-		    <op value="="/>
-		    <value value="2"/>
-	    </filter>
-	  </include>
+      <system value="urn:iso:std:iso:11073:10101" />
+      <filter>
+        <property value="partition" />
+        <op value="=" />
+        <value value="2" />
+      </filter>
+    </include>
+    <include>
+      <system value="urn:iso:std:iso:11073:10101" />
+      <filter>
+        <property value="partition" />
+        <op value="=" />
+        <value value="258" />
+      </filter>
+    </include>
   </compose>
 </ValueSet>

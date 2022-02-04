@@ -3,25 +3,23 @@
   "id": "MDC",
   "url": "urn:iso:std:iso:11073:10101",
   "identifier": [
-    { "system": "urn:ietf:rfc:3986", "value": "urn:oid:2.16.840.1.113883.6.24" }
+    { 
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.6.24"
+    }
   ],
-  "name": "MDC",
+  "name": "Mdc",
   "title": "MDC Nomenclature",
   "status": "draft",
   "experimental": false,
-  "publisher": "Health Level Seven International (Health Care Devices Work Group)",
-  "description": "ISO/IEEE 11073-10101 Nomenclature for point-of-care medical device communication.",
+  "publisher": "HL7 International - Devices Work Group",
+  "description": "ISO/IEEE 11073 Nomenclature for medical device communication.",
   "content": "not-present",
   "property": [
     {
       "code": "status",
       "description": "Status of the term code in NIST RTMMS.",
       "type": "Coding"
-    },
-    {
-      "code": "harmonized",
-      "description": "Indicates whether the term code has been agreed upon during the open consensus-based Rosetta harmonization process.",
-      "type": "boolean"
     },
     {
       "code": "partition",

@@ -1,42 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="MDC-concept-status"/>
-  <url value="http://devices.fhir.org/CodeSystem/MDC-concept-status"/>
-  <name value="MDC_concept_status"/>
-  <title value="MDC Concept Status"/>
-  <status value="draft"/>
-  <experimental value="false"/>
-  <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
-  <description value="Concept status within the ISO/IEEE 11073-10101 Nomenclature."/>
-  <content value="complete"/>
+  <id value="MDC-concept-status" />
+  <url value="http://devices.fhir.org/CodeSystem/MDC-concept-status" />
+  <name value="MdcConceptStatus" />
+  <title value="MDC Concept Status" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 International - Devices Work Group" />
+  <description value="Concept status within the ISO/IEEE 11073 Medical Device Communication Nomenclature.  Refer to IEEE 11073-10101-2019 Annex H." />
+  <content value="complete" />
   <concept>
-    <code value="provisional"/>
-    <display value="Provisional"/>
-    <definition value="Terms with provisional reference identifier and term code that may be used for development and interoperability testing. Provisional terms shall not be released in production devices."/>
+    <code value="provisional" />
+    <display value="Provisional" />
+    <definition value="A provisional term is allocated a term code and RefId. Provisional terms are generally used for development and interoperability testing and ought not to be released in production devices." />
   </concept>
   <concept>
-    <code value="approved"/>
-    <display value="Approved"/>
-    <definition value="Terms that got final approval for inclusion to RTMMS. Approved terms may be used in production devices."/>
+    <code value="accepted" />
+    <display value="Accepted" />
+    <definition value="Accepted terms will be included in the first draft of a revision or amendment of IEEE Std 11073-10101 (or one of the IEEE 11073-1010* family of nomenclature standards) for ballot. Although accepted terms may be used in production devices, they could be deprecated or withdrawn during subsequent IEEE balloting after the first draft in which they appear." />
   </concept>
   <concept>
-    <code value="zombie"/>
-    <display value="Zombie"/>
-    <definition value="Provisional terms that didn't get final approval. Reference identifier and term code will not be allocated to new terms."/>
+    <code value="published" />
+    <display value="Published" />
+    <definition value="Terms that are included in an IEEE 11073 standard and that have not been deprecated or withdrawn are designated published." />
   </concept>
   <concept>
-    <code value="published"/>
-    <display value="Published"/>
-    <definition value="Terms that are included in in a revision of the IEEE 11073-10101 standard."/>
+    <code value="deprecated" />
+    <display value="deprecated" />
+    <definition value="Terms may be designated as deprecated for a number of reasons, which may include deprecation of the entire term, the term code (RefId retained but a new term code allocated) or the RefId (term code retained but a new RefId allocated). Deprecated terms, term codes and RefIds are to be removed from use in production devices." />
   </concept>
   <concept>
-    <code value="deprecated"/>
-    <display value="deprecated"/>
-    <definition value="Deprecated terms shall be removed from use in production devices."/>
+    <code value="withdrawn" />
+    <display value="Withdrawn" />
+    <definition value="Terms found to be in error, such as having conflicting codes, are designated withdrawn and ought to be removed from existing devices and applications. Use of withdrawn terms shall be indicated as an error." />
   </concept>
   <concept>
-    <code value="withdrawn"/>
-    <display value="Withdrawn"/>
-    <definition value="Use of withdrawn terms shall be indicated as an error."/>
+    <code value="withdrawn-pending-ballot" />
+    <display value="Withdrawn (Pending Ballot)" />
+    <definition value="Terms that have been determined to be in error and that are expected to be formally withdrawn upon publication of a future IEEE 11073 standard.  These terms should be treated as withdrawn terms." />
+  </concept>
+  <concept>
+    <code value="deprecated-pending-ballot" />
+    <display value="Deprecated (Pending Ballot)" />
+    <definition value="Terms that are expected to be formally deprecated upon publication of a future IEEE 11073 standard.  These terms should be treated as deprecated terms." />
   </concept>
 </CodeSystem>

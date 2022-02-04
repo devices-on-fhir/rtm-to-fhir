@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-  <id value="MDC"/>
-  <url value="urn:iso:std:iso:11073:10101"/>
+  <id value="MDC" />
+  <url value="urn:iso:std:iso:11073:10101" />
   <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.840.1.113883.6.24"/>
+    <system value="urn:ietf:rfc:3986" />
+    <value value="urn:oid:2.16.840.1.113883.6.24" />
   </identifier>
-  <name value="MDC"/>
-  <title value="MDC Nomenclature"/>
-  <status value="draft"/>
-  <experimental value="false"/>
-  <publisher value="Health Level Seven International (Health Care Devices Work Group)"/>
-  <description value="ISO/IEEE 11073-10101 Nomenclature for point-of-care medical device communication."/>
-  <content value="not-present"/>
+  <name value="Mdc" />
+  <title value="MDC Nomenclature" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 International - Devices Work Group" />
+  <description value="ISO/IEEE 11073 Nomenclature for medical device communication." />
+  <content value="not-present" />
   <property>
-    <code value="status"/>
-    <description value="Status of the term code in NIST RTMMS."/>
-    <type value="Coding"/>
+    <code value="status" />
+    <description value="Status of the term code in NIST RTMMS." />
+    <type value="Coding" />
   </property>
   <property>
-    <code value="harmonized"/>
-    <description value="Indicates whether the term code has been agreed upon during the open consensus-based Rosetta harmonization process."/>
-    <type value="boolean"/>
-  </property>
-  <property>
-    <code value="partition"/>
-    <description value="Partition is a group of semantics that are assigned to a contiguous term code range and have a categorical relationship."/>
-    <type value="code"/>
+    <code value="partition" />
+    <description value="Partition is a group of semantics that are assigned to a contiguous term code range and have a categorical relationship." />
+    <type value="code" />
   </property>
 </CodeSystem>
