@@ -1,6 +1,6 @@
 # MDC Code System
 
-These definitions and tools are provided for creating a FHIR code system for the ISO/IEEE 11073-10101 Nomenclature standard.
+These definitions are provided for creating a FHIR code system for the ISO/IEEE 11073-10101 Medical Device Communication Nomenclature standard.
 
 ## Using MDC with FHIR
 Characteristics of the MDC code system are described in a [documentation page](http://hl7.org/fhir/mdc.html) in the Terminologies section of FHIR specification.
