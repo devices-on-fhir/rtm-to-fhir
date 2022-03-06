@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="MDC-event" />
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+  </meta>
+  <url value="http://devices.fhir.org/ValueSet/MDC-event" />
+  <version value="0.1.0" />
+  <name value="MdcEvent" />
+  <title value="MDC Event nomenclature" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 International - Devices Work Group" />
+  <description value="ValueSet for the ISO/IEEE 11073-10101 Nomenclature filtered by Event partition." />
+  <compose>
+    <include>
+      <system value="urn:iso:std:iso:11073:10101" />
+      <filter>
+        <property value="partition" />
+        <op value="=" />
+        <value value="3" />
+      </filter>
+    </include>
+  </compose>
+</ValueSet> 

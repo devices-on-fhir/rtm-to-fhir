@@ -18,5 +18,6 @@ There are example [ValueSet](http://hl7.org/fhir/valueset.html) resources that p
 [ValueSet/MDC](ValueSet/ValueSet-MDC.xml) ISO/IEEE 11073-10101 Nomenclature (all codes)  
 [ValueSet/MDC-partition](ValueSet/ValueSet-MDC-partition.xml) ISO/IEEE 11073-10101 Partition codes  
 [ValueSet/MDC-object](ValueSet/ValueSet-MDC-object.xml) ISO/IEEE 11073-10101 Nomenclature filtered by Object partition  
-[ValueSet/MDC-metric](ValueSet/ValueSet-MDC-metric.xml) ISO/IEEE 11073-10101 Nomenclature filtered by Metric partition  
+[ValueSet/MDC-metric](ValueSet/ValueSet-MDC-metric.xml) ISO/IEEE 11073-10101 Nomenclature filtered by Metric (SCADA or Settings) partition  
+[ValueSet/MDC-event](ValueSet/ValueSet-MDC-event.xml) ISO/IEEE 11073-10101 Nomenclature filtered by Event partition  
 [ValueSet/MDC-dimension](ValueSet/ValueSet-MDC-dimension.xml) ISO/IEEE 11073-10101 Nomenclature filtered by Dimension partition  
